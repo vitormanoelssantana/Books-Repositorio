@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Baskervville+SC&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+html{
+	font-size: calc(15px + 0.390625vw);
+}
+
+body main{
+    margin: 0 8vw 0 8vw;
+}
+body header{
+    margin: 1vw 5.5vw 1vw 5.5vw;
+    background-color: #e5e5e5;
+}
+header a{
+    font-family:"Abel", sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+header p span{
+ font-weight: 700;
+}
+header nav ul{
+    display: flex;
+    justify-content: right;
+}
+header nav{
+    padding: 2vw 3vw 2vw 2vw
+}
+header ul li a.atual{
+    font-weight: 800;
+    color: black;
+}
+header ul li a{
+    color: gray;
+}
+header ul li{
+    padding: 0 2vw 0 2vw;
+}
+section.Banner{
+    display: flex;
+    background-color: #e5e5e5;
+}
+section.Banner div{
+    display: block;
+    margin: auto;
+}
+section.Banner div.principal{
+    padding: 3rem 7rem 3rem 7rem;
+
+}
+section.Banner h1{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 600;
+    font-size: 3rem;
+    padding: 2rem 3rem 0 0;
+    line-height: 140%;
+    margin: 0 0 3vw 0;
+}
+section.Banner h1 span {
+    color: rgba(71, 193, 131, 1);
+}
+section.Banner p{
+    font-family:"Abel", sans-serif;
+    font-size: 1.5rem;
+    margin: 0 0 4vw 0;
+}
+section.Banner img{
+    float: left; 
+    width: 27vw;
+    margin: 1.5vw 0 3vw 0;
+}
+section.Banner button{
+    color: white;
+    background-color: black;
+    border-style: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 1.8rem 3rem 1.8rem 3rem;
+}
+section.Banner a{
+    margin: 0 2vw 0 2vw;
+    color: black;
+    font-family:"Abel", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+section.point {
+    margin: 0 8vw 0 8vw;
+}
+section.point h2{
+    font-family:"Abel", sans-serif;
+    font-weight: 800;
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: center;
+    margin: 7vw 0 2vw 0;
+}
+section.point div{
+    display: flex;
+    padding: 2vw;
+    position: relative;
+}
+section.point div.cinza1 p {
+    position: absolute;
+    top: 35%;
+    margin: 0 5vw 0 20vw;
+    font-size: 1.2vw;
+}
+section.point div.branco p {
+    position: absolute;
+    top: 40%;
+    margin: 0 25vw 0 5vw;
+    font-size: 1.2vw;
+}
+section.point div.cinza2 p {
+    position: absolute;
+    top: 45%;
+    margin: 0 5vw 0 20vw;
+    font-size: 1.2vw;
+}
+section.point div.branco img {
+    margin: 0 0 0 50vw;
+}
+section.point div.cinza1{
+    background-color: #e5e5e5;
+}
+section.point div.cinza2{
+    background-color: #e5e5e5;
+}
+section.experiment h2{
+    font-family:"Abel", sans-serif;
+    font-weight: 800;
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: center;
+    margin: 7vw 0 2vw 0;
+}
+section.experiment div{
+  display: flex;  
+    justify-content: center;
+}
+section.experiment div p {
+    font-family:"Abel", sans-serif;
+    padding: 3rem ;
+    background-color: #e5e5e5;
+    width: 50%;
+    font-size: 1.5rem;
+    line-height: 1.6vw;
+}
+section.experiment img{
+    padding: 0  03rem 0;
+}
+footer div{
+    display: flex;
+    margin: 0 8vw 0 12vw;
+}   
+footer div ul{
+    display: flex;
+}
+footer div p{
+    font-family:"Abel", sans-serif;
+    margin: 5rem 10rem 2rem 2rem;
+    line-height: 2vw;
+}
+footer div ul li{
+    margin: 5rem 3rem 2rem 2rem; 
+    justify-content: center;
+}
+footer div a {
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
